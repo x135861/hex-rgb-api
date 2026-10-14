@@ -1,0 +1,21 @@
+{
+    "name": "hex-rgb-api",
+    "version": "1.0.0",
+    "description": "Small REST API (Express) for converting hex colour values to RGB, with unit and integration tests.",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "test": "jest",
+        "test:unit": "jest tests/unit",
+        "test:integration": "jest tests/integration",
+        "test:coverage": "jest --coverage"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^7.0.0"
+    }
+}
